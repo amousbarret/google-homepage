@@ -1,0 +1,74 @@
+html body {
+	font-family: sans-serif,arial;
+	color: #222;
+}
+#container
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	bottom: 0px;
+
+}
+
+#google
+{
+	display: block;
+	color: blue;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	/*
+	margin-right: 200px;
+	margin-left: 200px;*/
+}
+
+
+ul{
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+li {
+	float: right;
+	
+}
+a{ display: block;
+	width: 60px;
+text-align: center;
+text-decoration: none;
+color: black;
+margin-top: 13px}
+#assya {
+
+margin-top: 0px;
+margin-right: 0px;}
+
+
+button{
+	font-size: 14px;
+	padding: 7.5px;
+	margin: 5px;
+	background-color: light grey;
+border-color: #c6c6c6;
+border: none;	
+
+}
+#footer{
+	
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	left: 0px;
+	background-color: red;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+div span {color: yellow;
+display: inline-block;
+padding-top: 10px;}
